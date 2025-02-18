@@ -1,0 +1,14 @@
+examples with emmet
+<ul>
+            <li>palabra 1</li>
+            <li>palabra 2</li>
+            <li>palabra 3</li>
+        </ul>
+        <div>
+            <h2>titulo 2</h2>
+            <p>Parrafo: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quam eaque et ut sequi a nam architecto. Ipsam voluptatum officia excepturi temporibus, molestiae assumenda facere. Beatae veniam dignissimos nobis explicabo!</p>
+        </div>
+        <input type="email" name="email" id="email">
+        <input type="text" name="nombre" id="nombre">
+        <input type="password" name="password" id="password">
+        
