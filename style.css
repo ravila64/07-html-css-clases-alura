@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap'); */
+/* IR A GOOGLE FONTS, BUSCAR FUENTE, GET FONTS, GET EMBEB CODE, @IMPORT, SELECT CSS ARE YOU NEED */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* *{
     margin: 0;
     padding: 0;
@@ -14,7 +17,7 @@ body{
 } */
 
 .titulo{
-    color: #FF0000;
+    color: #22d4fd;
 }
 
 .texto-destacado{
@@ -25,7 +28,10 @@ body{
 
 .titulo-blog{
     /* color:rgb(233, 96, 5); */
-    color: #007BFF;
+    color: white;
+    font-size: 36px;
+    /* font-family: sans-serif; */
+    font-family: "Krona One", serif;
 }
 
 .urgente{
@@ -50,3 +56,22 @@ body{
    border: 2px solid black;
    padding: 5px;
 } */
+
+.container{
+    display: flex;
+    align-items: center;
+    margin:10%;
+    justify-content: space-between;
+}
+
+.container_content{
+    width: 615px;
+}
+
+.content_text{
+    font-family: "Montserrat", serif;
+    /* font-weight: 50; */
+    font-size: 24px;
+    /* font-weight: 100; */  /* especifica grueso de la letra */
+}
+
