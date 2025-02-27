@@ -33,13 +33,13 @@ body{
     font-family: "Krona One", serif;
 }
 
-.urgente{
+/* .urgente{
     color: rgb(255, 0, 0);
     padding: 20px;
     border-radius: 15px;
     border : 2px solid-black;
     background-color: rgb(238, 225, 39);
-}
+} */
 
 .box-model{
     color:white;
@@ -79,24 +79,57 @@ body{
 
 .enlaces_botones{
     display: flex;
-    justify-content:space-between ;
+    /* justify-content:space-between ; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:32px;
 }
 
 .enlaces_botones_link{
-    width: 280px;
-    background-color: #22d4fd;
+    width: 381px;
     text-align: center;
-    padding: 19.5px 0;
-    border-radius: 16px;
-    font-family: "Montserrat", serif;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
+    padding:21.5Px 0;
     text-decoration: none;
-    color:black;
+    color:#f6f6f6;
+    font-family: "Montserrat", serif;
+    border: 2px solid #22d4fd;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
+
+.enlaces_botones_link:hover{
+    background-color: #272727;
+}
+
+/* .border_img{
+    border: 1px solid white;
+} */
 
 /* .imagen{
     width: 200px;
     justify-content: left;
     display: block;    
 } */
+
+.enlaces_subtitulo{
+    font-family: 'Krone One', sans-serif;
+    font-size:30px;
+    font-weight: 600;  /* regular */
+ }
+
+ /* .div_hover{
+    color: blue;
+    font-size:25px;
+ } */
+
+ /* .div_hover:hover{
+    background-color : yellow;
+    font-size:30px;
+ } */
+
+ 

@@ -1,0 +1,20 @@
+        // HTML-
+        <!-- <div class="container-foot">
+            <div class="cuadrado">C U A D R A D O - 1</div>
+            <div class="cuadrado">C U A D R A D O - 2</div>
+            <div class="cuadrado">C U A D R A D O - 3</div>
+            <div class="cuadrado">C U A D R A D O - 4</div>
+        </div> -->
+
+        // CSS.
+        .container-foot{
+        margin: 20px solid white;
+        padding:20px 10px;
+        /*margin: 20%;   agrega un margen para centrar los cuadrados en la pantalla  */
+        /* display: flex; */
+            /* coloca los cuadrados uno al lado del otro */
+        gap: 10px;    /* agrega espacios iguales entre cada cuadrado */
+        /* color:yellow; */
+        flex-direction: column;
+        align-items: flex-start;
+}
