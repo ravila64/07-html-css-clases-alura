@@ -1,14 +1,21 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap'); */
 /* IR A GOOGLE FONTS, BUSCAR FUENTE, GET FONTS, GET EMBEB CODE, @IMPORT, SELECT CSS ARE YOU NEED */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+:root{
+    --first-color: #000;
+    --second-color: #F6F6F6;
+    --third-color:#22d4fd;
+    --fourth-color:#272727;
+    --blue-hover: #007bff;
+
+    --monserrat-font: "Montserrat", sans-serif;
+    --krona-font: "Krona One", serif;
+}   
+
 body{
-    background-color: #000;
-    color:#F6F6F6;
-    height: 100vh;
+    /* height: 100vh; */
+    background-color: var(--first-color);
+    color:var(--second-color);
     box-sizing: border-box;
 }
 
@@ -17,7 +24,7 @@ body{
 } */
 
 .titulo{
-    color: #22d4fd;
+    color: var(--third-color);
 }
 
 /* .texto-destacado{
@@ -25,15 +32,7 @@ body{
     font-family: 'Lucida Sans';
  } */
 
-.titulo-blog{
-    /* color:rgb(233, 96, 5); */
-    color: white;
-    font-size: 36px;
-    /* font-family: sans-serif; */
-    font-family: "Krona One", serif;
-}
-
-/* .urgente{
+ /* .urgente{
     color: rgb(255, 0, 0);
     padding: 20px;
     border-radius: 15px;
@@ -57,13 +56,15 @@ body{
    padding: 5px;
 } */
 
-.container{
-    display: flex;
+/*este es PRESENTACION */
+.container{    
+    /* margin:8% 15%; se cambio curso 8, tema 4 */
+    padding: 7% 15%;
+    display: flex; 
     align-items: center;
-    margin:10% 15%;
     justify-content: space-between;
 }
-
+/* presentacion_contenido*/
 .container_content{
     width: 615px;
     display: flex;
@@ -71,10 +72,24 @@ body{
     gap:40px; /*espacios entre objetos  */
 }
 
-.content_text{
-    font-family: "Montserrat", serif;
+/* presentacion_contenido_titulo  */
+.container_content_title{
+    color: white;
+    font-size: 36px;
+    font-family: var(--krona-font);
+}
+
+.container_content_text{
+    font-family: var(--monserrat-font);
     font-size: 24px;
     /* font-weight: 100; */  /* especifica grueso de la letra */
+}
+
+/* agregar en desafio - insercion de curriculum*/
+/* presentacion__contenido__texto a */
+.container_content_text a{
+    text-decoration: none;
+    color: var(--third-color);
 }
 
 .enlaces_botones{
@@ -95,15 +110,16 @@ body{
     padding:21.5Px 0;
     text-decoration: none;
     color:#f6f6f6;
-    font-family: "Montserrat", serif;
-    border: 2px solid #22d4fd;
+    font-family: var(--monserrat-font);
+    border: 2px solid var(--third-color);
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
 .enlaces_botones_link:hover{
-    background-color: #272727;
+    background-color: var(--fourth-color);
+    cursor: pointer;
 }
 
 /* .border_img{
@@ -117,7 +133,7 @@ body{
 } */
 
 .enlaces_subtitulo{
-    font-family: 'Krone One', sans-serif;
+    font-family: var(--krona-font);
     font-size:30px;
     font-weight: 600;  /* regular */
  }
@@ -132,4 +148,46 @@ body{
     font-size:30px;
  } */
 
- 
+/* footer */
+.footer{
+    background-color: var(--third-color);
+    padding: 24px;
+    color:#000;
+    text-align: center;
+    font-family: var(--monserrat-font);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+      
+}
+
+.header_menu {
+    display: flex;
+    gap: 80px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.header_menu_link {
+    font-family: var(--monserrat-font);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--third-color);
+    text-decoration: none;
+    /* margin: 0 10px;
+    padding: 5px 10px;
+     */
+}
+
+.header_menu_link:hover {
+    color: var(--blue-hover);
+}
+
+
+.header_menu_link {
+    padding: 10px 15px;
+}
+

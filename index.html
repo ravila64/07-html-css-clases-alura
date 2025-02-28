@@ -6,43 +6,47 @@
     <!-- viewport :muestre en la pantalla en dispositivos moviles-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="header">
+        <nav class="header_menu">
+            <a class="header_menu_link" href="index.html">Home</a>
+            <a class="header_menu_link" href="about.html">Sobre mi</a>
+            <a class="header_menu_link" href="curriculum.html">Curriculum</a>
+        </nav>
     </header>
     <main class="container">
         <section class="container_content">
-            <h2 class="titulo-blog">Eleve tu negocio digital a otro nivel <strong class="titulo">Con un Front-end de calidad!</strong> </h2>
+            <h1 class="container_content_title">Eleve tu negocio digital a otro nivel <strong class="titulo">Con un Front-end de calidad!</strong> </h1>
             <!-- <p class="urgente">Texto con noticias Urgentes</p> -->
             <p class="box-model">Ahora que has entendido el modelo de caja CSS, aplica este conocimiento en tu proyecto. Selecciona un elemento específico (por ejemplo, un párrafo) y ajusta las propiedades de margen, borde, relleno y contenido. Observa cómo cada cambio afecta la posición y apariencia del elemento en la página.</p>
-            <p class="content_text"> ¡Hola! <strong>Soy Ana García</strong>, desarrolladora Front-end con especialización en React, HTML y CSS. Ayudo a pequeños negocios y diseñadores a llevar a cabo buenas ideas. ¿Hablamos?</p>
+            <p class="container_content_text"> ¡Hola! <strong>Soy Rene Avila</strong>, desarrollador, programador Front-end con conocimientos en React, HTML y CSS. Ayudo a pequeños negocios y diseñadores a llevar a cabo buenas ideas. ¿Hablamos?</p>
             <div class="enlaces_botones">
                 <h2 class="enlaces_subtitulo">Accede a mis redes:</h2>
-                <a class="enlaces_botones_link" href="https://www.instagram.com/">
+                <a class="enlaces_botones_link" href="https://www.instagram.com/" target="_blank">
                     <img src="./assets/instagram.png">
                     Instagram
                 </a>
-                <a class="enlaces_botones_link" href="https://www.github.com/">
+                <a class="enlaces_botones_link" href="https://github.com/ravila64" target="_blank">
                     <img src="./assets/github.png">
-                    GitHub</a>
-                    <a class="enlaces_botones_link" href="https://www.twitch.tv/">
+                    GitHub
+                </a>
+                <a class="enlaces_botones_link" href="https://www.twitch.tv/" target="_blank">
                         <img src="./assets/twitch.png">
-                    Twitch</a>
+                    Twitch
+                </a>
             </div>
-            <!-- <div class="div_hover">
-                mi nombre es Rene Avila
-            </div> -->
         </section>
         <div class="imagen">
-            <img src="./Rectangle 47.png" alt="Imagen de Ana Garcia">
+            <!-- <img src="./Rectangle 47.png" alt="Imagen de Ana Garcia"> -->
+            <img src="https://media-bog2-2.cdn.whatsapp.net/v/t61.24694-24/473406651_932923958962671_1057262936972950207_n.jpg?ccb=11-4&oh=01_Q5AaIAaVHHMsZFA6c9_n3O8_vMnTOWLWBaGYX9ducQNvHA8M&oe=67CF1FCB&_nc_sid=5e03e0&_nc_cat=108" alt="avatar">
         </div>
     </main>
-    <aside>Texto al lado derecho</aside>
-    <footer>
-
+    <aside>Texto al lado derecho-es el aside</aside>
+    <footer class="footer">
+        <p>Desarrollado por René Avila Alonso</p>
     </footer>
 </body>
 </html>
