@@ -20,11 +20,67 @@ body{
     box-sizing: border-box;
 }
 
-/* strong{
-    color: #22d4fd;
-} */
+.header{
+    padding: 2% 0% 0% 15%;
+      
+}
 
-.titulo{
+.header_menu {
+    display: flex;
+    gap: 80px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.header_menu_link {
+    font-family: var(--monserrat-font);
+    font-size: 1.5rem; /* estaba 24px;*/
+    font-weight: 600;
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+/*este es PRESENTACION */
+.container{    
+    /* margin:8% 15%; se cambio curso 8, tema 4 */
+    padding: 7% 15%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    /* gap:82px; */
+}
+
+/* presentacion_contenido*/
+.container_content{
+    width: 50%;  /* was 615px; */
+    display: flex;
+    flex-direction: column;
+    gap:40px; /*espacios entre objetos  */
+}
+
+/* presentacion_contenido_titulo  */
+.container_content_title{
+    /* color: white; */
+    /* display: inline-flex; */
+    /* width: 50%; */
+    font-size: 2.25rem; /* 36px; */
+    font-family: var(--krona-font);
+}
+
+.titulo-destaque{
+    color: var(--third-color);
+}
+
+.container_content_text{
+    font-family: var(--monserrat-font);
+    font-size: 1.5rem; /* estaba 24px;*/
+    /* font-weight: 100; */  /* especifica grueso de la letra */
+}
+
+/* agregar en desafio - insercion de curriculum*/
+/* presentacion__contenido__texto a */
+.container_content_text a{
+    text-decoration: none;
     color: var(--third-color);
 }
 
@@ -51,64 +107,20 @@ body{
     /* content: url("https://google.com.co"); */
 }
 
-/* p {
-   margin: 10px;
-   border: 2px solid black;
-   padding: 5px;
-} */
-
-/*este es PRESENTACION */
-.container{    
-    /* margin:8% 15%; se cambio curso 8, tema 4 */
-    padding: 7% 15%;
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    gap:82px;
-}
-
-/* presentacion_contenido*/
-.container_content{
-    width: 50%;  /* was 615px; */
-    display: flex;
-    flex-direction: column;
-    gap:40px; /*espacios entre objetos  */
-}
-
-/* presentacion_contenido_titulo  */
-.container_content_title{
-    color: white;
-    width: 50%;
-    font-size: 2.25rem; /* 36px; */
-    font-family: var(--krona-font);
-}
-
-.container_content_text{
-    font-family: var(--monserrat-font);
-    font-size: 1.5rem; /* estaba 24px;*/
-    /* font-weight: 100; */  /* especifica grueso de la letra */
-}
-
-/* agregar en desafio - insercion de curriculum*/
-/* presentacion__contenido__texto a */
-.container_content_text a{
-    text-decoration: none;
-    color: var(--third-color);
-}
-
+/* presentacion_enlaces */
 .enlaces_botones{
-    display: flex;
     /* justify-content:space-between ; */
+    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     gap:32px;
 }
 
 .enlaces_botones_link{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
     border: 2px solid var(--third-color);
     width: 50%;  /* 381px; */
     text-align: center;
@@ -121,87 +133,57 @@ body{
     font-family: var(--monserrat-font);
 }
 
-.container_image{
-    width: 50%;
-}
+.enlaces_subtitulo{
+    font-family: var(--krona-font);
+    font-size:1.5rem; /* 24px; */
+    font-weight: 400;  /* regular ? */
+ }
 
 .enlaces_botones_link:hover{
     background-color: var(--fourth-color);
     cursor: pointer;
 }
 
-/* .border_img{
-    border: 1px solid white;
-} */
-
-/* .imagen{
-    width: 200px;
-    justify-content: left;
-    display: block;    
-} */
-
-.enlaces_subtitulo{
-    font-family: var(--krona-font);
-    font-size:1.875px; /* 30px; */
-    font-weight: 600;  /* regular */
- }
-
- /* .div_hover{
-    color: blue;
-    font-size:25px;
- } */
-
- /* .div_hover:hover{
-    background-color : yellow;
-    font-size:30px;
- } */
+.container_image{
+    width: 50%;
+}
 
 /* footer */
 .footer{
+    color: va(--first-color);
     background-color: var(--third-color);
     padding: 24px; 
-    color: va(--first-color);
     text-align: center;
-    font-family: var(--monserrat-font);
+    font-family: var(--krona-font);
     font-size: 1.5rem; /* estaba 24px;*/
     font-weight: 400;
 }
 
-.header{
-    padding: 2% 0% 0% 15%;
-      
-}
-
-.header_menu {
-    display: flex;
-    gap: 80px;
-    /* justify-content: center;
-    align-items: center; */
-}
-
 .header_menu_link {
-    font-family: var(--monserrat-font);
-    font-size: 1.5rem; /* estaba 24px;*/
-    font-weight: 600;
-    color: var(--third-color);
-    text-decoration: none;
-    /* margin: 0 10px;
-    padding: 5px 10px;
-     */
+    padding: 10px 15px;
 }
 
 .header_menu_link:hover {
     color: var(--blue-hover);
 }
 
-
-.header_menu_link {
-    padding: 10px 15px;
-}
-
 /* media queries */
 @media (max-width: 1200px){
+    .header{
+        padding: 10px;
+    }
+    .header_menu{
+        justify-content: center;
+    }
     .container{
       flex-direction: column-reverse;   
+      padding: 5%;  /* todos los lados arr der abaj izq */
+    }
+    .container_content{
+        width: auto;   
+    }
+    .container_image{
+        display: block;
+        margin:auto;
     }
 }
