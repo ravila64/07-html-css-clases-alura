@@ -9,7 +9,7 @@ Al crear tu readme, elimina toda la información anterior y mantén solo la imag
 
 Añade la imagen de portada con el tema de tu proyecto:
 
-![image](https://github.com/user-attachments/assets/c02a2e40-8b07-47e9-936c-dc45e30efc50)
+![image](assets/potafolio-01.JPG)
 
 Después de agregar la imagen, también modifica las configuraciones del proyecto para asegurarte de que la imagen se cargue como miniatura:
 
