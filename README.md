@@ -24,7 +24,7 @@ Después de agregar la imagen, también modifica las configuraciones del proyect
   
 # Nombre del proyecto
 
-Describe de qué trata el proyecto y qué hace.
+Portafolio
 
 ## 🔨 Funcionalidades del proyecto
 
