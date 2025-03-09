@@ -9,7 +9,7 @@ Al crear tu readme, elimina toda la información anterior y mantén solo la imag
 
 Añade la imagen de portada con el tema de tu proyecto:
 
-![image](./assets/potafolio-01.JPG)
+![image](./assets/portafolio-01.JPG)
 
 Después de agregar la imagen, también modifica las configuraciones del proyecto para asegurarte de que la imagen se cargue como miniatura:
 
@@ -32,7 +32,7 @@ Indica cuáles son las funcionalidades y comportamientos de la App.
 
 Si es posible, presenta un ejemplo visual del proyecto, ya sea gif, imágenes o video. A continuación, un ejemplo:
 
-![image](https://github.com/user-attachments/assets/a86f67e5-0c7e-4ccc-9de2-6ea73b58aa93)
+![image](./assets/portafolio-02.JPG)
 
 ## ✔️ Técnicas y tecnologías utilizadas
 
